@@ -14,7 +14,7 @@ visual studio 2015 express source code attached.
 
 
 #### Building from source
-Clone the repo on your hard disk, Open the file JAWS.vbproj with Visual Studio 2015 or superior, then go to menu "Build" >> Build Wallisk
+Clone the repo on your hard disk, Open the file WALLISK.vbproj with Visual Studio 2015 or superior, then go to menu "Build" >> Build Wallisk
 you will find the compiled exe inside the bin/Release folder
 
 
@@ -27,7 +27,7 @@ and has included in exe resources the [Json.NET library](https://github.com/Jame
 
 ### Windows Binary
 
-[df1]: <./bin/Release/JAWS.exe?raw=true>
+[df1]: <./bin/Release/WALLISK.exe?raw=true>
 [Download already compiled Windows Binary] [df1]
 
 ###  Credits

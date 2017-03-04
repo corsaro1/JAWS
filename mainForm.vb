@@ -1010,7 +1010,7 @@ fooerror:
     Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
         System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
         votepools = "no"
-        If MsgBox("Completing this procedure will cost you 1 SHIFT and you will vote all public wallet delegates: corsaro, phoenix1969, vipertdk, punkrock, hagie, gr33ndragon, bioly and gregorst, so to support this software", MsgBoxStyle.OkCancel, "Title") = MsgBoxResult.Ok Then
+        If MsgBox("Completing this procedure will cost you 1 SHIFT and you will vote for delegate corsaro, so to support this software", MsgBoxStyle.OkCancel, "Title") = MsgBoxResult.Ok Then
 
 
 
@@ -1178,23 +1178,23 @@ fooerror:
 
         Dim myAL As New ArrayList
 
-        Dim pubkey1 As String = "ac09bc40c889f688f9158cca1fcfcdf6320f501242e0f7088d52a5077084ccba" ' corsaro
-        Dim pubkey2 As String = "ab086300d5d1e366d56ff2b4919ee718d3d6b72a862bafec0f1d42c9812af30b"
-        Dim pubkey3 As String = "45ab8f54edff6b802335dc3ea5cd5bc5324e4031c0598a2cdcae79402e4941f8"
-        Dim pubkey4 As String = "677c79b243ed96a8439e8bd193d6ab966ce43c9aa18830d2b9eb8974455d79f8"
-        Dim pubkey5 As String = "27f7950c552f9ffa8c871940167e92257cf90625443a0183aa3f7e05e1f6cb21"
-        Dim pubkey6 As String = "ad936990fb57f7e686763c293e9ca773d1d921888f5235189945a10029cd95b0"
-        Dim pubkey7 As String = "1681920f9cb83ff2590a8e5c502a7015d4834f5365cf5ed17392c9c78147f94d"
-        Dim pubkey8 As String = "ec151a510d095dc2c19a87a3b54549cfe1c30e703d5216197b4c879ff08bc3ed"
+        Dim pubkey1 As String = "1888169261bb30b1d1e73d5b8142c367e5d71c1c39ca2680a62229cde940015f" ' corsaro
+        '  Dim pubkey2 As String = "ab086300d5d1e366d56ff2b4919ee718d3d6b72a862bafec0f1d42c9812af30b" '
+        '  Dim pubkey3 As String = "45ab8f54edff6b802335dc3ea5cd5bc5324e4031c0598a2cdcae79402e4941f8"
+        '  Dim pubkey4 As String = "677c79b243ed96a8439e8bd193d6ab966ce43c9aa18830d2b9eb8974455d79f8"
+        '  Dim pubkey5 As String = "27f7950c552f9ffa8c871940167e92257cf90625443a0183aa3f7e05e1f6cb21"
+        '  Dim pubkey6 As String = "ad936990fb57f7e686763c293e9ca773d1d921888f5235189945a10029cd95b0"
+        '  Dim pubkey7 As String = "1681920f9cb83ff2590a8e5c502a7015d4834f5365cf5ed17392c9c78147f94d"
+        '   Dim pubkey8 As String = "ec151a510d095dc2c19a87a3b54549cfe1c30e703d5216197b4c879ff08bc3ed"
 
-        Dim pubkey9 As String = "eddeb37070a19e1277db5ec34ea12225e84ccece9e6b2bb1bb27c3ba3999dac7" 'phinx
-        Dim pubkey10 As String = "253e674789632f72c98d47a650f1ca5ece0dbb82f591080471129d57ed88fb8a" 'shinekami
-        Dim pubkey11 As String = "b002f58531c074c7190714523eec08c48db8c7cfc0c943097db1a2e82ed87f84" 'thepool
-        Dim pubkey12 As String = "ec111c8ad482445cfe83d811a7edd1f1d2765079c99d7d958cca1354740b7614" 'thepool_com_01
-        Dim pubkey13 As String = "32f20bee855238630b0f791560c02cf93014977b4b25c19ef93cd92220390276" 'robinhood
-        Dim pubkey14 As String = "b3953cb16e2457b9be78ad8c8a2985435dedaed5f0dd63443bdfbccc92d09f2d" 'rooney
-        Dim pubkey15 As String = "25e961fa459d202816776c8736560d493a94fdd7381971f63fb9b70479487598" 'badman0316
-        Dim pubkey16 As String = "58babaac1229ed7b48b646a87dbba27c6ad21f1b74865a049e7cef771bd34d6a" 'lisk.pool.sexy
+        Dim pubkey9 As String = "598420f407236337ced7e6d696b3099894178690cd2fe1aff464bf34bc51311d " 'official_pool
+        Dim pubkey10 As String = "fcb0cff74d816466993916a70bf4deaf027c061ca91dfe68e8aedf316e71c182 " 'wariner3
+        Dim pubkey11 As String = "ee5fc37fb488ff046cdaa4d9b3f48bb832d3947b44b402a52c2450e36db31132 " 'wariner2
+        '  Dim pubkey12 As String = "ec111c8ad482445cfe83d811a7edd1f1d2765079c99d7d958cca1354740b7614" 'thepool_com_01
+        '  Dim pubkey13 As String = "32f20bee855238630b0f791560c02cf93014977b4b25c19ef93cd92220390276" 'robinhood
+        '  Dim pubkey14 As String = "b3953cb16e2457b9be78ad8c8a2985435dedaed5f0dd63443bdfbccc92d09f2d" 'rooney
+        '  Dim pubkey15 As String = "25e961fa459d202816776c8736560d493a94fdd7381971f63fb9b70479487598" 'badman0316
+        '  Dim pubkey16 As String = "58babaac1229ed7b48b646a87dbba27c6ad21f1b74865a049e7cef771bd34d6a" 'lisk.pool.sexy
 
 
 
@@ -1209,47 +1209,47 @@ fooerror:
 
             End If
 
-            If testob.Contains(pubkey2) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
-            Else
+            '      If testob.Contains(pubkey2) = False Then
+            '      myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
+            ' Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey3) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
-            Else
+            '     If testob.Contains(pubkey3) = False Then
+            '     myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
+            'Else
 
-            End If
+            ' End If
 
-            If testob.Contains(pubkey4) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
-            Else
+            '     If testob.Contains(pubkey4) = False Then
+            '     myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
+            ' Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey5) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
-            Else
+            '   If testob.Contains(pubkey5) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey6) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey6) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey7) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey7) = False Then
+            ' myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey8) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey8) = False Then
+            ' myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
         Else
 
@@ -1259,47 +1259,47 @@ fooerror:
 
             End If
 
-            If testob.Contains(pubkey2) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey2) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
+            '  Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey3) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey3) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
+            ' Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey4) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey4) = False Then
+            ' myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
+            ' Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey5) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
-            Else
+            ' If testob.Contains(pubkey5) = False Then
+            ' myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
+            '  Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey6) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey6) = False Then
+            ' myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
+            ' Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey7) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey7) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
+            ' Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey8) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
-            Else
+            '   If testob.Contains(pubkey8) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
+            '   Else
 
-            End If
+            'End If
 
 
             If testob.Contains(pubkey9) = False Then
@@ -1317,31 +1317,31 @@ fooerror:
             Else
             End If
 
-            If testob.Contains(pubkey12) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey12 & Chr(34))
-            Else
-            End If
+            '   If testob.Contains(pubkey12) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey12 & Chr(34))
+            '  Else
+            'End If
 
-            If testob.Contains(pubkey13) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey13 & Chr(34))
-            Else
-            End If
+            ' If testob.Contains(pubkey13) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey13 & Chr(34))
+            '  Else
+            'End If
 
 
-            If testob.Contains(pubkey14) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey14 & Chr(34))
-            Else
-            End If
+            '  If testob.Contains(pubkey14) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey14 & Chr(34))
+            '  Else
+            'End If
 
-            If testob.Contains(pubkey15) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey15 & Chr(34))
-            Else
-            End If
+            '  If testob.Contains(pubkey15) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey15 & Chr(34))
+            '  Else
+            'End If
 
-            If testob.Contains(pubkey16) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey16 & Chr(34))
-            Else
-            End If
+            '  If testob.Contains(pubkey16) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey16 & Chr(34))
+            '  Else
+            'End If
 
         End If
 
@@ -1527,23 +1527,23 @@ Fooerror2:
         Dim testob As String = If(jResultsb("delegates") Is Nothing, "", jResultsb("delegates").ToString())
         Dim myAL As New ArrayList
 
-        Dim pubkey1 As String = "ac09bc40c889f688f9158cca1fcfcdf6320f501242e0f7088d52a5077084ccba" ' corsaro
-        Dim pubkey2 As String = "ab086300d5d1e366d56ff2b4919ee718d3d6b72a862bafec0f1d42c9812af30b"
-        Dim pubkey3 As String = "45ab8f54edff6b802335dc3ea5cd5bc5324e4031c0598a2cdcae79402e4941f8"
-        Dim pubkey4 As String = "677c79b243ed96a8439e8bd193d6ab966ce43c9aa18830d2b9eb8974455d79f8"
-        Dim pubkey5 As String = "27f7950c552f9ffa8c871940167e92257cf90625443a0183aa3f7e05e1f6cb21"
-        Dim pubkey6 As String = "ad936990fb57f7e686763c293e9ca773d1d921888f5235189945a10029cd95b0"
-        Dim pubkey7 As String = "1681920f9cb83ff2590a8e5c502a7015d4834f5365cf5ed17392c9c78147f94d"
-        Dim pubkey8 As String = "ec151a510d095dc2c19a87a3b54549cfe1c30e703d5216197b4c879ff08bc3ed"
+        Dim pubkey1 As String = "1888169261bb30b1d1e73d5b8142c367e5d71c1c39ca2680a62229cde940015f" ' corsaro
+        '  Dim pubkey2 As String = "ab086300d5d1e366d56ff2b4919ee718d3d6b72a862bafec0f1d42c9812af30b" '
+        '  Dim pubkey3 As String = "45ab8f54edff6b802335dc3ea5cd5bc5324e4031c0598a2cdcae79402e4941f8"
+        '  Dim pubkey4 As String = "677c79b243ed96a8439e8bd193d6ab966ce43c9aa18830d2b9eb8974455d79f8"
+        '  Dim pubkey5 As String = "27f7950c552f9ffa8c871940167e92257cf90625443a0183aa3f7e05e1f6cb21"
+        '  Dim pubkey6 As String = "ad936990fb57f7e686763c293e9ca773d1d921888f5235189945a10029cd95b0"
+        '  Dim pubkey7 As String = "1681920f9cb83ff2590a8e5c502a7015d4834f5365cf5ed17392c9c78147f94d"
+        '   Dim pubkey8 As String = "ec151a510d095dc2c19a87a3b54549cfe1c30e703d5216197b4c879ff08bc3ed"
 
-        Dim pubkey9 As String = "eddeb37070a19e1277db5ec34ea12225e84ccece9e6b2bb1bb27c3ba3999dac7" 'phinx
-        Dim pubkey10 As String = "253e674789632f72c98d47a650f1ca5ece0dbb82f591080471129d57ed88fb8a" 'shinekami
-        Dim pubkey11 As String = "b002f58531c074c7190714523eec08c48db8c7cfc0c943097db1a2e82ed87f84" 'thepool
-        Dim pubkey12 As String = "ec111c8ad482445cfe83d811a7edd1f1d2765079c99d7d958cca1354740b7614" 'thepool_com_01
-        Dim pubkey13 As String = "32f20bee855238630b0f791560c02cf93014977b4b25c19ef93cd92220390276" 'robinhood
-        Dim pubkey14 As String = "b3953cb16e2457b9be78ad8c8a2985435dedaed5f0dd63443bdfbccc92d09f2d" 'rooney
-        Dim pubkey15 As String = "25e961fa459d202816776c8736560d493a94fdd7381971f63fb9b70479487598" 'badman0316
-        Dim pubkey16 As String = "58babaac1229ed7b48b646a87dbba27c6ad21f1b74865a049e7cef771bd34d6a" 'lisk.pool.sexy
+        Dim pubkey9 As String = "598420f407236337ced7e6d696b3099894178690cd2fe1aff464bf34bc51311d " 'official_pool
+        Dim pubkey10 As String = "fcb0cff74d816466993916a70bf4deaf027c061ca91dfe68e8aedf316e71c182 " 'wariner3
+        Dim pubkey11 As String = "ee5fc37fb488ff046cdaa4d9b3f48bb832d3947b44b402a52c2450e36db31132 " 'wariner2
+        '  Dim pubkey12 As String = "ec111c8ad482445cfe83d811a7edd1f1d2765079c99d7d958cca1354740b7614" 'thepool_com_01
+        '  Dim pubkey13 As String = "32f20bee855238630b0f791560c02cf93014977b4b25c19ef93cd92220390276" 'robinhood
+        '  Dim pubkey14 As String = "b3953cb16e2457b9be78ad8c8a2985435dedaed5f0dd63443bdfbccc92d09f2d" 'rooney
+        '  Dim pubkey15 As String = "25e961fa459d202816776c8736560d493a94fdd7381971f63fb9b70479487598" 'badman0316
+        '  Dim pubkey16 As String = "58babaac1229ed7b48b646a87dbba27c6ad21f1b74865a049e7cef771bd34d6a" 'lisk.pool.sexy
 
 
 
@@ -1557,49 +1557,49 @@ Fooerror2:
 
             End If
 
-            If testob.Contains(pubkey2) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
-            Else
+            '    If testob.Contains(pubkey2) = False Then
+            '     myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey3) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
-            Else
+            '     If testob.Contains(pubkey3) = False Then
+            '    myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey4) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
-            Else
+            '    If testob.Contains(pubkey4) = False Then
+            '    myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey5) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
-            Else
+            '    If testob.Contains(pubkey5) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey6) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
-            Else
+            '  If testob.Contains(pubkey6) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
+            '  Else
+            '
+            '  End If
 
-            End If
+            '  If testob.Contains(pubkey7) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
+            'Else
 
-            If testob.Contains(pubkey7) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
-            Else
+            'End If
 
-            End If
+            '  If testob.Contains(pubkey8) = False Then
+            '    myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
+            'Else
 
-            If testob.Contains(pubkey8) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
-            Else
+            'End If
 
-            End If
-
-        Else
+            '  Else
 
             If testob.Contains(pubkey1) = False Then
                 myAL.Add(Chr(34) & "+" & pubkey1 & Chr(34))
@@ -1607,47 +1607,47 @@ Fooerror2:
 
             End If
 
-            If testob.Contains(pubkey2) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
-            Else
+            '   If testob.Contains(pubkey2) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey2 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey3) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
-            Else
+            '   If testob.Contains(pubkey3) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey3 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey4) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
-            Else
+            '    If testob.Contains(pubkey4) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey4 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey5) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
-            Else
+            '    If testob.Contains(pubkey5) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey5 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey6) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
-            Else
+            '   If testob.Contains(pubkey6) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey6 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey7) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
-            Else
+            '   If testob.Contains(pubkey7) = False Then
+            '   myAL.Add(Chr(34) & "+" & pubkey7 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
-            If testob.Contains(pubkey8) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
-            Else
+            '   If testob.Contains(pubkey8) = False Then
+            ' myAL.Add(Chr(34) & "+" & pubkey8 & Chr(34))
+            'Else
 
-            End If
+            'End If
 
 
             If testob.Contains(pubkey9) = False Then
@@ -1665,31 +1665,31 @@ Fooerror2:
             Else
             End If
 
-            If testob.Contains(pubkey12) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey12 & Chr(34))
-            Else
-            End If
+            '   If testob.Contains(pubkey12) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey12 & Chr(34))
+            'Else
+            'End If
 
-            If testob.Contains(pubkey13) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey13 & Chr(34))
-            Else
-            End If
+            '   If testob.Contains(pubkey13) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey13 & Chr(34))
+            ' Else
+            '  End If
 
 
-            If testob.Contains(pubkey14) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey14 & Chr(34))
-            Else
-            End If
+            '  If testob.Contains(pubkey14) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey14 & Chr(34))
+            'Else
+            'End If
 
-            If testob.Contains(pubkey15) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey15 & Chr(34))
-            Else
-            End If
+            '  If testob.Contains(pubkey15) = False Then
+            '  myAL.Add(Chr(34) & "+" & pubkey15 & Chr(34))
+            'Else
+            'End If
 
-            If testob.Contains(pubkey16) = False Then
-                myAL.Add(Chr(34) & "+" & pubkey16 & Chr(34))
-            Else
-            End If
+            '  If testob.Contains(pubkey16) = False Then
+            ' myAL.Add(Chr(34) & "+" & pubkey16 & Chr(34))
+            'Else
+            'End If
 
         End If
 
@@ -1783,7 +1783,7 @@ FooError:
 
     Private Sub Button13_Click(sender As System.Object, e As System.EventArgs) Handles Button13.Click
         System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-        If MsgBox("Completing this procedure will cost you 1 SHIFT and you will vote all public wallet delegates: corsaro, phoenix1969, vipertdk, punkrock, hagie, gr33ndragon, bioly and gregorst, so to support this software and besides you will stake your SHIFT on some of the main SHIFT pools:" & vbCrLf & vbCrLf & "phinx" & vbCrLf & "shinekami" & vbCrLf & "thepool" & vbCrLf & "liskpool_com_01" & vbCrLf & "robinhood" & vbCrLf & "rooney" & vbCrLf & "badman0316" & vbCrLf & "lisk.pool.sexy", MsgBoxStyle.OkCancel, "Title") = MsgBoxResult.Ok Then
+        If MsgBox("Completing this procedure will cost you 1 SHIFT and you will vote for delegate corsaro and you will stake your SHIFT on some of the main SHIFT pools:" & vbCrLf & vbCrLf & "official_pool" & vbCrLf & "wariner3" & vbCrLf & "wariner2" & vbCrLf, MsgBoxStyle.OkCancel, "Title") = MsgBoxResult.Ok Then
 
 
             'MsgBox("Completing this procedure will cost you 1 LISK and you will vote all public wallet delegates: corsaro, phoenix1969, vipertdk, punkrock, hagie, gr33ndragon, bioly and gregorst, so to support this software and besides you will stake your lisk on some of the main Lisk pools:" & vbCrLf & vbCrLf & "phinx" & vbCrLf & "shinekami" & vbCrLf & "thepool" & vbCrLf & "liskpool_com_01" & vbCrLf & "robinhood" & vbCrLf & "rooney" & vbCrLf & "badman0316" & vbCrLf & "lisk.pool.sexy")

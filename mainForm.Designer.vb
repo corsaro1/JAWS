@@ -175,6 +175,7 @@ Partial Class Lisk
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 6
+        Me.TextBox3.Visible = False
         '
         'TextBox5
         '
@@ -261,6 +262,7 @@ Partial Class Lisk
         Me.RadioButton3.TabIndex = 32
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.RadioButton3.Visible = False
         '
         'RadioButton4
         '
@@ -357,6 +359,7 @@ Partial Class Lisk
         Me.LinkLabel3.TabStop = True
         Me.LinkLabel3.Tag = ""
         Me.LinkLabel3.Text = "https://node.shiftnrg.online/"
+        Me.LinkLabel3.Visible = False
         '
         'LinkLabel4
         '
@@ -561,10 +564,10 @@ Partial Class Lisk
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(347, 199)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(42, 13)
+        Me.Label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label7.Size = New System.Drawing.Size(21, 13)
         Me.Label7.TabIndex = 62
-        Me.Label7.Text = "corsaro"
-        Me.Label7.Visible = False
+        Me.Label7.Text = "mq"
         '
         'Label8
         '
@@ -695,9 +698,9 @@ Partial Class Lisk
         Me.Label16.AutoSize = True
         Me.Label16.Location = New System.Drawing.Point(551, 342)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(131, 13)
+        Me.Label16.Size = New System.Drawing.Size(104, 13)
         Me.Label16.TabIndex = 76
-        Me.Label16.Text = "the delegate list on the left"
+        Me.Label16.Text = "the delegate corsaro"
         '
         'Button12
         '
@@ -1034,7 +1037,7 @@ Partial Class Lisk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(873, 459)
+        Me.ClientSize = New System.Drawing.Size(896, 456)
         Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.Button28)
