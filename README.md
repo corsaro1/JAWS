@@ -27,7 +27,7 @@ and has included in exe resources the [Json.NET library](https://github.com/Jame
 
 ### Windows Binary
 
-[df1]: <./bin/Release/WALLISK.exe?raw=true>
+[df1]: <./bin/Release/JAWS.exe?raw=true>
 [Download already compiled Windows Binary] [df1]
 
 ###  Credits
