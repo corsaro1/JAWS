@@ -1,0 +1,136 @@
+C:\ProgramData\github\wallisk\WALLISK\bin\Debug\WALLISK.exe
+C:\ProgramData\github\wallisk\WALLISK\bin\Debug\WALLISK.pdb
+C:\ProgramData\github\wallisk\WALLISK\bin\Debug\WALLISK.xml
+C:\ProgramData\github\wallisk\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\ProgramData\github\wallisk\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\ProgramData\github\wallisk\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\ProgramData\github\wallisk\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\ProgramData\github\wallisk\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\ProgramData\github\wallisk\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\ProgramData\github\wallisk\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\ProgramData\github\wallisk\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\visual studio\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\All Users\visual studio\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\All Users\visual studio\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\visual studio\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\visual studio\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\All Users\visual studio\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\All Users\visual studio\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\visual studio\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\All Users\visual studio\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\All Users\visual studio\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\All Users\visual studio\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\visual studio\lavoro\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\All Users\visual studio\lavoro\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\All Users\visual studio\lavoro\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\visual studio\lavoro\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\All Users\visual studio\lavoro\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\All Users\visual studio\lavoro\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\All Users\visual studio\lavoro\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\visual studio\lavoro\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\visual studio\lavoro\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\All Users\visual studio\lavoro\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\All Users\visual studio\lavoro\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.pubkeyForm.resources
+C:\Users\All Users\visual studio\lavoro\multisign\WALLISK\obj\x86\Debug\WALLISK.cosignForm.resources
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\fabrizio\Desktop\vs\WALLISK\bin\Debug\WALLISK.exe.config
+C:\Users\fabrizio\Desktop\vs\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\fabrizio\Desktop\vs\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\fabrizio\Desktop\vs\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\fabrizio\Desktop\vs\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.cosignForm.resources
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.pubkeyForm.resources
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\fabrizio\Desktop\vs\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\progetti\WALLISK\bin\Debug\WALLISK.exe.config
+C:\Users\All Users\progetti\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\All Users\progetti\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\All Users\progetti\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.cosignForm.resources
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.pubkeyForm.resources
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\All Users\progetti\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\definitivo\WALLISK\bin\Debug\WALLISK.exe.config
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\definitivo\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\All Users\progetti\definitivo\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\definitivo\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\All Users\progetti\definitivo\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.cosignForm.resources
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.pubkeyForm.resources
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\All Users\progetti\definitivo\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\bin\Debug\WALLISK.exe.config
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.cosignForm.resources
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.pubkeyForm.resources
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.vote.resources
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\lavoro temporaneo\002\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\bin\Debug\WALLISK.exe.config
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\bin\Debug\WALLISK.exe
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\bin\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\bin\Debug\WALLISK.xml
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.cosignForm.resources
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.pubkeyForm.resources
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.Lisk.resources
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.Resources.resources
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.vote.resources
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.exe
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.xml
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.pdb
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\bin\Debug\NBitcoin.dll
+C:\Users\All Users\progetti\lavoro temporaneo\003\WALLISK\obj\x86\Debug\WALLISK.newAddress.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.exe.config
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.exe
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.pdb
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.xml
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\NBitcoin.dll
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\WALLISK.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.cosignForm.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.newAddress.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.pubkeyForm.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.Lisk.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.Resources.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.vote.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\WALLISK.vbproj.GenerateResource.Cache
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.exe
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.xml
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.pdb

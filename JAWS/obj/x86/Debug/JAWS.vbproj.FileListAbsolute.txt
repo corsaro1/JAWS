@@ -1,0 +1,17 @@
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.exe.config
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.exe
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.xml
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.pdb
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.exe
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.pdb
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\JAWS.xml
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\NBitcoin.dll
+C:\Users\All Users\progetti\definitivo\WALLIFT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.vbprojResolveAssemblyReference.cache
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.cosignForm.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.newAddress.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.pubkeyForm.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.Lisk.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.Resources.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.vote.resources
+C:\Users\All Users\progetti\definitivo\WALLIFT\obj\x86\Debug\JAWS.vbproj.GenerateResource.Cache
