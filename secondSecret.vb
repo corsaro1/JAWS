@@ -197,7 +197,7 @@ fooerror:
 
         Save.CheckPathExists = True
         Save.Title = "Save File"
-        Save.FileName = TextBox1.Text
+        Save.FileName = "secondSecret"
         '  Save.ShowDialog(Me)
 
         If Save.ShowDialog = Windows.Forms.DialogResult.Cancel = True Then
@@ -207,7 +207,7 @@ fooerror:
             'Save.ShowDialog(Me)
             Try
                 myStreamWriter = System.IO.File.AppendText(Save.FileName)
-                myStreamWriter.Write("Secret:")
+                myStreamWriter.Write("secondSecret:")
                 myStreamWriter.Write(vbCrLf)
                 myStreamWriter.Write(TextBox1.Text)
                 '  myStreamWriter.Write(vbCrLf)
@@ -222,6 +222,7 @@ fooerror:
                 myStreamWriter.Dispose()
 
                 Button1.Enabled = True
+                Button2.Enabled = False
             Catch ex As Exception
             End Try
         End If
@@ -252,6 +253,8 @@ fooerror:
         Label2.Visible = True
         Label3.Visible = True
         Label4.Visible = True
+        Button4.Enabled = True
+
 
     End Sub
 
@@ -268,8 +271,12 @@ fooerror:
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        On Error GoTo foerror
         Clipboard.Clear()
         Clipboard.SetText(TextBox1.Text)
         Button2.Enabled = True
+        Button4.Enabled = False
+foerror:
+
     End Sub
 End Class

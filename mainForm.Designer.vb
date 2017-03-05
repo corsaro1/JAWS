@@ -536,7 +536,7 @@ Partial Class Lisk
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(146, 23)
         Me.Button6.TabIndex = 59
-        Me.Button6.Text = "<-- Vote for delegates"
+        Me.Button6.Text = "Vote for corsaro"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Label5
