@@ -21,20 +21,21 @@ you will find the compiled exe inside the bin/Release folder
 
 ### Installation
 
-Wallisk requires [Net framework 4.5](https://www.microsoft.com/it-it/download/details.aspx?id=30653) to run.
+JAWS requires [Net framework 4.5](https://www.microsoft.com/it-it/download/details.aspx?id=30653) to run.
 and has included in exe resources the [Json.NET library](https://github.com/JamesNK/Newtonsoft.Json) and [nuGet NBitcoin library](http://www.nuget.org/packages/NBitcoin/)
 (as soon as you run the exe a Newtonsoft.Json.dll and NBitcoin.dll are automatically created in exe folder)
 
 ### Windows Binary
 
-[df1]: <./bin/Release/WALLISK.exe?raw=true>
+[df1]: <./bin/Release/JAWS.exe?raw=true>
 [Download already compiled Windows Binary] [df1]
 
 ###  Credits
 A special thank to gr33ndrag0n for his help in solving a TLS 1.2 issue when communicating with his node
 https://github.com/Gr33nDrag0n69
 
-A special thank to ralfs for helping me to find the right name for this piece of code
+A special thank to "ralfs" for helping me to find the right name for this piece of code
+
 
 
 
