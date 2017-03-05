@@ -33,7 +33,7 @@ Public Class cosignForm
 
             End If
             If Lisk.RadioButton3.Checked = True Then
-                url = "https://node.shiftnrg.online/api/multisignatures/sign"
+                url = "https://wallet.shiftnrg.nl/api/multisignatures/sign"
 
             End If
             If Lisk.RadioButton4.Checked = True Then

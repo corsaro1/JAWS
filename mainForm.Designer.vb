@@ -128,6 +128,7 @@ Partial Class Lisk
         Me.Button28 = New System.Windows.Forms.Button()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Button29 = New System.Windows.Forms.Button()
+        Me.Button30 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -175,7 +176,6 @@ Partial Class Lisk
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 6
-        Me.TextBox3.Visible = False
         '
         'TextBox5
         '
@@ -262,7 +262,6 @@ Partial Class Lisk
         Me.RadioButton3.TabIndex = 32
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.UseVisualStyleBackColor = True
-        Me.RadioButton3.Visible = False
         '
         'RadioButton4
         '
@@ -354,12 +353,11 @@ Partial Class Lisk
         Me.LinkLabel3.AutoSize = True
         Me.LinkLabel3.Location = New System.Drawing.Point(35, 225)
         Me.LinkLabel3.Name = "LinkLabel3"
-        Me.LinkLabel3.Size = New System.Drawing.Size(140, 13)
+        Me.LinkLabel3.Size = New System.Drawing.Size(123, 13)
         Me.LinkLabel3.TabIndex = 42
         Me.LinkLabel3.TabStop = True
         Me.LinkLabel3.Tag = ""
-        Me.LinkLabel3.Text = "https://node.shiftnrg.online/"
-        Me.LinkLabel3.Visible = False
+        Me.LinkLabel3.Text = "https://wallet.shiftnrg.nl/"
         '
         'LinkLabel4
         '
@@ -574,10 +572,9 @@ Partial Class Lisk
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(347, 224)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(68, 13)
+        Me.Label8.Size = New System.Drawing.Size(58, 13)
         Me.Label8.TabIndex = 63
-        Me.Label8.Text = "phoenix1969"
-        Me.Label8.Visible = False
+        Me.Label8.Text = "Shift Team"
         '
         'Label9
         '
@@ -1033,11 +1030,21 @@ Partial Class Lisk
         Me.Button29.Text = "Generate New Address"
         Me.Button29.UseVisualStyleBackColor = True
         '
+        'Button30
+        '
+        Me.Button30.Location = New System.Drawing.Point(723, 51)
+        Me.Button30.Name = "Button30"
+        Me.Button30.Size = New System.Drawing.Size(147, 23)
+        Me.Button30.TabIndex = 110
+        Me.Button30.Text = "Second Signature Creation"
+        Me.Button30.UseVisualStyleBackColor = True
+        '
         'Lisk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(896, 456)
+        Me.Controls.Add(Me.Button30)
         Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.Button28)
@@ -1237,4 +1244,5 @@ Partial Class Lisk
     Friend WithEvents Button28 As Button
     Friend WithEvents Label25 As Label
     Friend WithEvents Button29 As Button
+    Friend WithEvents Button30 As Button
 End Class

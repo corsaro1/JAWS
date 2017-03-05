@@ -32,3 +32,4 @@ C:\Users\All Users\progetti\definitivo\JAWS\obj\x86\Debug\JAWS.Lisk.resources
 C:\Users\All Users\progetti\definitivo\JAWS\obj\x86\Debug\JAWS.Resources.resources
 C:\Users\All Users\progetti\definitivo\JAWS\obj\x86\Debug\JAWS.vote.resources
 C:\Users\All Users\progetti\definitivo\JAWS\obj\x86\Debug\JAWS.vbproj.GenerateResource.Cache
+C:\Users\All Users\progetti\definitivo\JAWS\obj\x86\Debug\JAWS.secondSecret.resources

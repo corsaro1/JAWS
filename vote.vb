@@ -26,7 +26,7 @@ Public Class vote
 
         End If
         If Lisk.RadioButton3.Checked = True Then
-            url1 = "https://node.shiftnrg.online/"
+            url1 = "https://wallet.shiftnrg.nl/"
 
         End If
         If Lisk.RadioButton4.Checked = True Then

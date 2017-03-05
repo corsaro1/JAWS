@@ -80,7 +80,7 @@ Public Class pubkeyForm
 
             End If
             If Lisk.RadioButton3.Checked = True Then
-                url = "https://node.shiftnrg.online/api/multisignatures/"
+                url = "https://wallet.shiftnrg.nl/api/multisignatures/"
 
             End If
             If Lisk.RadioButton4.Checked = True Then

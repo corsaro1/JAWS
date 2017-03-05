@@ -39,7 +39,7 @@ Public Class newAddress
 
         End If
         If Lisk.RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/accounts/open"
+            url = "https://wallet.shiftnrg.nl/api/accounts/open"
 
         End If
         If Lisk.RadioButton4.Checked = True Then

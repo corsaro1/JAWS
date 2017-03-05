@@ -83,12 +83,12 @@ Public Class Lisk
         BackgroundWorker1.RunWorkerAsync()
         BackgroundWorker2.RunWorkerAsync()
         BackgroundWorker3.RunWorkerAsync()
-        BackgroundWorker4.RunWorkerAsync()
-        BackgroundWorker5.RunWorkerAsync()
-        BackgroundWorker6.RunWorkerAsync()
-        BackgroundWorker7.RunWorkerAsync()
-        BackgroundWorker8.RunWorkerAsync()
-        BackgroundWorker9.RunWorkerAsync()
+        ' BackgroundWorker4.RunWorkerAsync()
+        '  BackgroundWorker5.RunWorkerAsync()
+        ' BackgroundWorker6.RunWorkerAsync()
+        ' BackgroundWorker7.RunWorkerAsync()
+        ' BackgroundWorker8.RunWorkerAsync()
+        ' BackgroundWorker9.RunWorkerAsync()
 
 
         System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
@@ -104,7 +104,7 @@ Public Class Lisk
 
         End If
         If RadioButton3.Checked = True Then
-            url1 = "https://node.shiftnrg.online/"
+            url1 = "https://wallet.shiftnrg.nl/"
 
         End If
         If RadioButton4.Checked = True Then
@@ -158,7 +158,7 @@ Public Class Lisk
         Dim testo4 As String
         testo4 = testo2 / 100000000
         Label1.Text = "Address " & senderId
-        Label4.Text = testo4 & " LISK"
+        Label4.Text = testo4 & " SHIFT"
 
         Button5.Enabled = True
         Button5.Text = "update balance"
@@ -276,7 +276,7 @@ Public Class Lisk
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/transactions"
+            url = "https://wallet.shiftnrg.nl/api/transactions"
 
         End If
         If RadioButton4.Checked = True Then
@@ -657,7 +657,7 @@ fooerror:
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/transactions"
+            url = "https://wallet.shiftnrg.nl/api/transactions"
 
         End If
         If RadioButton4.Checked = True Then
@@ -950,7 +950,7 @@ FooError:
         Dim testo4 As String
         testo4 = testo2 / 100000000
         Label1.Text = "Address " & senderId
-        Label4.Text = testo4 & " LISK"
+        Label4.Text = testo4 & " SHIFT"
 
         Button5.Enabled = True
         Button5.Text = "update"
@@ -986,7 +986,7 @@ fooerror:
         Dim testo4 As String
         testo4 = testo2 / 100000000
         Label1.Text = "Address " & senderId
-        Label4.Text = testo4 & " LISK"
+        Label4.Text = testo4 & " SHIFT"
         Button5.Enabled = True
         Button5.Text = "update balance"
 
@@ -1094,7 +1094,7 @@ fooerror:
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/accounts/delegates"
+            url = "https://wallet.shiftnrg.nl/api/accounts/delegates"
 
         End If
         If RadioButton4.Checked = True Then
@@ -1440,7 +1440,7 @@ Fooerror2:
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/accounts/delegates"
+            url = "https://wallet.shiftnrg.nl/api/accounts/delegates"
 
         End If
         If RadioButton4.Checked = True Then
@@ -2087,7 +2087,7 @@ fooerror:
 
         On Error Resume Next
         'request3 = DirectCast(WebRequest.Create("https://wallet.shift.4miners.net/api/loader/status/sync"), HttpWebRequest)
-        request3 = DirectCast(WebRequest.Create("https://node.shiftnrg.online/api/loader/status/sync"), HttpWebRequest)
+        request3 = DirectCast(WebRequest.Create("https://wallet.shiftnrg.nl/api/loader/status/sync"), HttpWebRequest)
 
         response3 = DirectCast(request3.GetResponse(), HttpWebResponse)
         reader3 = New StreamReader(response3.GetResponseStream())
@@ -2269,7 +2269,7 @@ fooerror:
         Dim testo4 As String
         testo4 = testo2 / 100000000
         Label1.Text = "Address " & senderId
-        Label4.Text = testo4 & " LISK"
+        Label4.Text = testo4 & " SHIFT"
 
         Button5.Enabled = True
         Button5.Text = "update balance"
@@ -2292,7 +2292,7 @@ fooerror:
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/multisignatures/sign"
+            url = "https://wallet.shiftnrg.nl/api/multisignatures/sign"
 
         End If
         If RadioButton4.Checked = True Then
@@ -2517,7 +2517,7 @@ Fooerror2:
 
             End If
             If RadioButton3.Checked = True Then
-                url = "node.shiftnrg.online"
+                url = "wallet.shiftnrg.nl"
 
             End If
             If RadioButton4.Checked = True Then
@@ -3187,7 +3187,7 @@ fooerror:
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/accounts/open"
+            url = "https://wallet.shiftnrg.nl/api/accounts/open"
 
         End If
         If RadioButton4.Checked = True Then
@@ -3497,7 +3497,7 @@ fooerror:
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/delegates"
+            url = "https://wallet.shiftnrg.nl/api/delegates"
 
         End If
         If RadioButton4.Checked = True Then
@@ -3657,7 +3657,7 @@ fooerror:
 
         End If
         If RadioButton3.Checked = True Then
-            url = "https://node.shiftnrg.online/api/delegates"
+            url = "https://wallet.shiftnrg.nl/api/delegates"
 
         End If
         If RadioButton4.Checked = True Then
@@ -3783,5 +3783,9 @@ fooerror:
     Private Sub Button29_Click(sender As Object, e As EventArgs) Handles Button29.Click
         newAddress.ShowDialog()
 
+    End Sub
+
+    Private Sub Button30_Click(sender As Object, e As EventArgs) Handles Button30.Click
+        secondSecret.ShowDialog()
     End Sub
 End Class
