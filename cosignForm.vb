@@ -36,12 +36,12 @@ Public Class cosignForm
                 url = "https://wallet.shiftnrg.nl/api/multisignatures/sign"
 
             End If
-            If Lisk.RadioButton4.Checked = True Then
+            If Lisk.RadioButton5.Checked = True Then
                 url = "https://liskwallet.punkrock.me/api/multisignatures/sign"
 
             End If
-            If Lisk.RadioButton5.Checked = True Then
-                url = "https://lisk-login.vipertkd.com/api/multisignatures/sign"
+            If Lisk.RadioButton4.Checked = True Then
+                url = "http://127.0.0.1:9305/api/multisignatures/sign"
 
             End If
             If Lisk.RadioButton6.Checked = True Then

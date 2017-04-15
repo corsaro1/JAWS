@@ -29,12 +29,12 @@ Public Class vote
             url1 = "https://wallet.shiftnrg.nl/"
 
         End If
-        If Lisk.RadioButton4.Checked = True Then
+        If Lisk.RadioButton5.Checked = True Then
             url1 = "https://liskwallet.punkrock.me/"
 
         End If
-        If Lisk.RadioButton5.Checked = True Then
-            url1 = "https://lisk-login.vipertkd.com/"
+        If Lisk.RadioButton4.Checked = True Then
+            url1 = "http://127.0.0.1:9305/"
 
         End If
         If Lisk.RadioButton6.Checked = True Then

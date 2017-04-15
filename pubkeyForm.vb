@@ -83,12 +83,12 @@ Public Class pubkeyForm
                 url = "https://wallet.shiftnrg.nl/api/multisignatures/"
 
             End If
-            If Lisk.RadioButton4.Checked = True Then
+            If Lisk.RadioButton5.Checked = True Then
                 url = "https://liskwallet.punkrock.me/api/multisignatures/"
 
             End If
-            If Lisk.RadioButton5.Checked = True Then
-                url = "https://lisk-login.vipertkd.com/api/multisignatures/"
+            If Lisk.RadioButton4.Checked = True Then
+                url = "http://127.0.0.1:9305/api/multisignatures/"
 
             End If
             If Lisk.RadioButton6.Checked = True Then

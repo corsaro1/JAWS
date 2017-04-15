@@ -42,12 +42,12 @@ Public Class newAddress
             url = "https://wallet.shiftnrg.nl/api/accounts/open"
 
         End If
-        If Lisk.RadioButton4.Checked = True Then
+        If Lisk.RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/accounts/open"
 
         End If
-        If Lisk.RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/accounts/open"
+        If Lisk.RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/accounts/open"
 
         End If
         If Lisk.RadioButton6.Checked = True Then

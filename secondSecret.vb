@@ -61,15 +61,15 @@ Public Class secondSecret
             url = "https://wallet.shiftnrg.nl/api/signatures"
 
         End If
-        If Lisk.RadioButton4.Checked = True Then
-            url = "https://liskwallet.punkrock.me/api/accounts/open"
+            If Lisk.RadioButton5.Checked = True Then
+                url = "https://liskwallet.punkrock.me/api/signatures"
 
-        End If
-        If Lisk.RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/accounts/open"
+            End If
+            If Lisk.RadioButton4.Checked = True Then
+                url = "http://127.0.0.1:9305/api/signatures"
 
-        End If
-        If Lisk.RadioButton6.Checked = True Then
+            End If
+            If Lisk.RadioButton6.Checked = True Then
             url = "https://lisk.delegates.site/api/accounts/open"
 
         End If
@@ -89,7 +89,7 @@ Public Class secondSecret
 
         Else
             url = "https://wallet.testnet.shiftnrg.org/api/signatures"
-            '  url = "http://127.0.0.1:9405/api/signatures"
+            ' url = "http://127.0.0.1:9405/api/signatures"
         End If
 
 
@@ -170,9 +170,16 @@ Public Class secondSecret
 
         result = reader.ReadToEnd()
         MsgBox(result)
-        ' Dim jResults2 As Object = JObject.Parse(result)
-        'Dim testo2 As String = If(jResults2("account")("publicKey") Is Nothing, "", jResults2("account")("publicKey").ToString())
-        ' MsgBox("your pubKey is " & testo2) ' mia pubkey
+        Dim jResults2 As Object = JObject.Parse(result)
+        Dim testo2 As String = If(jResults2("success") Is Nothing, "", jResults2("success").ToString())
+        MsgBox(testo2)
+        If testo2 = "True" Then
+            MsgBox("secondSecret aggiunta con successo")
+
+        Else
+            MsgBox("operazione fallita")
+        End If
+        'MsgBox(testo2) ' mia pubkey
         'TextBox2.Text = testo2
 
         '  Dim jResults3 As Object = JObject.Parse(result)
@@ -223,6 +230,9 @@ fooerror:
 
                 Button1.Enabled = True
                 Button2.Enabled = False
+                Label3.Font = New Font(Label2.Font, FontStyle.Regular)
+                Label4.Font = New Font(Label3.Font, FontStyle.Bold)
+
             Catch ex As Exception
             End Try
         End If
@@ -251,6 +261,7 @@ fooerror:
         Label3.Text = "2"
         Label4.Text = "3"
         Label2.Visible = True
+        Label2.Font = New Font(Label2.Font, FontStyle.Bold)
         Label3.Visible = True
         Label4.Visible = True
         Button4.Enabled = True
@@ -276,6 +287,8 @@ fooerror:
         Clipboard.SetText(TextBox1.Text)
         Button2.Enabled = True
         Button4.Enabled = False
+        Label2.Font = New Font(Label2.Font, FontStyle.Regular)
+        Label3.Font = New Font(Label3.Font, FontStyle.Bold)
 foerror:
 
     End Sub

@@ -83,7 +83,7 @@ Public Class Lisk
         BackgroundWorker1.RunWorkerAsync()
         BackgroundWorker2.RunWorkerAsync()
         BackgroundWorker3.RunWorkerAsync()
-        ' BackgroundWorker4.RunWorkerAsync()
+        BackgroundWorker4.RunWorkerAsync()
         '  BackgroundWorker5.RunWorkerAsync()
         ' BackgroundWorker6.RunWorkerAsync()
         ' BackgroundWorker7.RunWorkerAsync()
@@ -107,12 +107,12 @@ Public Class Lisk
             url1 = "https://wallet.shiftnrg.nl/"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url1 = "https://liskwallet.punkrock.me/"
 
         End If
-        If RadioButton5.Checked = True Then
-            url1 = "https://lisk-login.vipertkd.com/"
+        If RadioButton4.Checked = True Then
+            url1 = "http://127.0.0.1:9305/"
 
         End If
         If RadioButton6.Checked = True Then
@@ -279,12 +279,12 @@ Public Class Lisk
             url = "https://wallet.shiftnrg.nl/api/transactions"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/transactions"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/transactions"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/transactions"
 
         End If
         If RadioButton6.Checked = True Then
@@ -660,12 +660,12 @@ fooerror:
             url = "https://wallet.shiftnrg.nl/api/transactions"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/transactions"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/transactions"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/transactions"
 
         End If
         If RadioButton6.Checked = True Then
@@ -1097,12 +1097,12 @@ fooerror:
             url = "https://wallet.shiftnrg.nl/api/accounts/delegates"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/accounts/delegates"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/accounts/delegates"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/accounts/delegates"
 
         End If
         If RadioButton6.Checked = True Then
@@ -1443,12 +1443,12 @@ Fooerror2:
             url = "https://wallet.shiftnrg.nl/api/accounts/delegates"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/accounts/delegates"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/accounts/delegates"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/accounts/delegates"
 
         End If
         If RadioButton6.Checked = True Then
@@ -2111,7 +2111,7 @@ fooerror:
         On Error Resume Next
 
         'request3 = DirectCast(WebRequest.Create("http://wallet.shift.4miners.net:8000/api/loader/status/sync"), HttpWebRequest)
-        request4 = DirectCast(WebRequest.Create("https://lisk-login.vipertkd.com/api/loader/status/sync"), HttpWebRequest)
+        request4 = DirectCast(WebRequest.Create("http://127.0.0.1:9305/api/loader/status/sync"), HttpWebRequest)
 
         response4 = DirectCast(request4.GetResponse(), HttpWebResponse)
         reader4 = New StreamReader(response4.GetResponseStream())
@@ -2295,12 +2295,12 @@ fooerror:
             url = "https://wallet.shiftnrg.nl/api/multisignatures/sign"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/multisignatures/sign"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/multisignatures/sign"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/multisignatures/sign"
 
         End If
         If RadioButton6.Checked = True Then
@@ -3190,12 +3190,12 @@ fooerror:
             url = "https://wallet.shiftnrg.nl/api/accounts/open"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/accounts/open"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/accounts/open"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/accounts/open"
 
         End If
         If RadioButton6.Checked = True Then
@@ -3500,12 +3500,12 @@ fooerror:
             url = "https://wallet.shiftnrg.nl/api/delegates"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/delegates"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/delegates"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/delegates"
 
         End If
         If RadioButton6.Checked = True Then
@@ -3660,12 +3660,12 @@ fooerror:
             url = "https://wallet.shiftnrg.nl/api/delegates"
 
         End If
-        If RadioButton4.Checked = True Then
+        If RadioButton5.Checked = True Then
             url = "https://liskwallet.punkrock.me/api/delegates"
 
         End If
-        If RadioButton5.Checked = True Then
-            url = "https://lisk-login.vipertkd.com/api/delegates"
+        If RadioButton4.Checked = True Then
+            url = "http://127.0.0.1:9305/api/delegates"
 
         End If
         If RadioButton6.Checked = True Then
